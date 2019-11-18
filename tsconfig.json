@@ -1,0 +1,22 @@
+{
+    "files": [
+        "index.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "target": "esnext",
+        "module": "commonjs",
+        "baseUrl": "./",
+        "paths": {
+            "~*": ["./*"]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./test/**/*",
+        "node_modules"
+    ]
+}
